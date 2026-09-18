@@ -16,24 +16,34 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
             <Image Source="/Images/kosc0.png"
+                   Tag="0"
+                   MouseLeftButtonDown="Kosc_MouseLeftButtonDown"
                    Height="75"
                    Margin="10"
                    x:Name="Kosc1"/>
             <Image Source="/Images/kosc0.png"
+                   Tag="1"
+                   MouseLeftButtonDown="Kosc_MouseLeftButtonDown"
                    Height="75"
                    Margin="10"
                    x:Name="Kosc2"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
             <Image Source="/Images/kosc0.png"
+                   Tag="2"
+                   MouseLeftButtonDown="Kosc_MouseLeftButtonDown"
                    Height="75"
                    Margin="10"
                    x:Name="Kosc3"/>
             <Image Source="/Images/kosc0.png"
+                   Tag="3"
+                   MouseLeftButtonDown="Kosc_MouseLeftButtonDown"
                    Height="75"
                    Margin="10"
                    x:Name="Kosc4"/>
             <Image Source="/Images/kosc0.png"
+                   Tag="4"
+                   MouseLeftButtonDown="Kosc_MouseLeftButtonDown"
                    Height="75"
                    Margin="10"
                    x:Name="Kosc5"/>
@@ -45,7 +55,7 @@
                     Margin="10"
                     Background="#ED275021"
                     Foreground="White"
-                    Command="{Binding RzucKoscmi}"/>
+                    Click="RzucKoscmi"/>
             <TextBlock x:Name="Wynik"
                     Text="0"
                     FontSize="40"

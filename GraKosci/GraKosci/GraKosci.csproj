@@ -10,10 +10,37 @@
 
   <ItemGroup>
     <None Remove="Images\kosc0.png" />
+    <None Remove="Images\kosc1.png" />
+    <None Remove="Images\kosc2.png" />
+    <None Remove="Images\kosc3.png" />
+    <None Remove="Images\kosc4.png" />
+    <None Remove="Images\kosc5.png" />
+    <None Remove="Images\kosc6.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Images\kosc0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\kosc1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kosc2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kosc3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kosc4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kosc5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kosc6.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
