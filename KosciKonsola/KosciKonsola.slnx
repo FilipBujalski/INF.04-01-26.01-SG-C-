@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="KosciKonsola/KosciKonsola.csproj" />
+  <Project Path="TestProject1/TestProject1.csproj" Id="4373c383-9e81-4f61-9d3c-8808496bfe63" />
 </Solution>
